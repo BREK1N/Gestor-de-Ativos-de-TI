@@ -24,8 +24,10 @@
                         </ul>
                     </div>
                     <div class="card-footer text-end">
+                        <a href="{% url 'editar_equipamento' pk=equipamento.pk %}" class="btn btn-warning">Editar</a>
+                        <a href="{% url 'deletar_equipamento' pk=equipamento.pk %}" class="btn btn-danger">Deletar</a>
                         <a href="{% url 'lista_equipamentos' %}" class="btn btn-secondary">Voltar para a Lista</a>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
