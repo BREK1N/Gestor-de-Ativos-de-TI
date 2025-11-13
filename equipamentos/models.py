@@ -8,7 +8,7 @@ class Categoria(models.Model):
 
 
 class Equipamento(models.Model):
-    # Opções para o campo de status
+    
     STATUS_CHOICES = [
         ('Em Uso', 'Em Uso'),
         ('Estoque', 'Estoque'),
